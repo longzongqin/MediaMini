@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.js linguist-language=weChat mini programs
+*.json linguist-language=weChat mini programs
+*.wxss linguist-language=weChat mini programs
