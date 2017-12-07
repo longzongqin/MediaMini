@@ -1,5 +1,6 @@
 # MediaMini
 ![Image text](demo.jpg)
+
 如上图，这个上传管理照片、视频的微信小程序。
 
 目录结构介绍：
