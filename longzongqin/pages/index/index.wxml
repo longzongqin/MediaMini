@@ -1,0 +1,26 @@
+<view class="page">
+<view class="listItem" wx:for="{{dataArr}}" wx:key="key" wx:for-index="idx">
+  <view class="header">
+      <image class="headImg" src="{{item.headImg}}"></image>
+      <text class="nick">{{item.nick}}</text>
+      <text wx:if="{{item.address == ''}}" class="time1">{{item.time}}</text>
+      <text wx:if="{{item.address != ''}}" class="time">{{item.time}}</text>
+      <text class="address">{{item.address}}</text>
+  </view>
+
+  <view class="content" wx:if="{{item.type == 1}}">
+    <video src="http://localhost/App/Uploads/{{item.url}}" ></video>
+  </view>
+  <view class="content" wx:if="{{item.type == 0}}" wx:key="key">
+   <image wx:if="{{photo.count == 1}}" wx:key="key" data-index="{{idx}}" bindtap="showImg" data-mediaid="{{photo.mediaID}}" wx:for="{{item.data}}" wx:for-item="photo" style="width:{{(windowWidth - 4) / 1}}px;" src="http://localhost/App/Uploads/{{photo.handleImg}}" mode="aspectFit"></image>
+
+     <image wx:if="{{photo.count == 2}}" wx:key="key" data-index="{{idx}}" bindtap="showImg" data-mediaid="{{photo.mediaID}}" wx:for="{{item.data}}" wx:for-item="photo" style="width:{{(windowWidth -8) / 2}}px;height:{{(windowWidth -8) / 2}}px;" src="http://localhost/App/Uploads/{{photo.thumbImg}}"></image>
+
+       <image wx:if="{{photo.count > 2}}" wx:key="key" data-index="{{idx}}" bindtap="showImg" data-mediaid="{{photo.mediaID}}" wx:for="{{item.data}}" wx:for-item="photo" style="width:{{(windowWidth - 12) / 3}}px; height:{{(windowWidth - 12) / 3}}px;" src="http://localhost/App/Uploads/{{photo.thumbImg}}"></image>
+  </view>
+
+  <view class="footer">
+    <text class="title">{{item.title}}</text>
+  </view>
+</view>
+</view>

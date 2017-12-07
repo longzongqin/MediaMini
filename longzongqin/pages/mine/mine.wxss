@@ -1,0 +1,21 @@
+.head{
+    width: 100%;
+    background:cornflowerblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+.head image{
+   width:150px;
+   height: 150px;
+   border-radius: 150px;
+}
+.head label{
+    margin-top: 5px !important;
+    color: white;
+}
+.content{
+    padding: 15px;
+}
+.uploadFile{
+    margin-top: 30px;
+}

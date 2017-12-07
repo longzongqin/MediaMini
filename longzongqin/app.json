@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/video/video",
+    "pages/mine/mine",
+    "pages/upload/upload"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "龙宗勤",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home-select.png"
+    }, {
+      "pagePath": "pages/photo/photo",
+      "text": "图片",
+       "iconPath": "images/photo.png",
+      "selectedIconPath": "images/photo-select.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "视频",
+       "iconPath": "images/video.png",
+      "selectedIconPath": "images/video-select.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "个人",
+       "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine-select.png"
+    }],
+    "color": "#8d8d8d",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#000000"
+  },
+  "debug":true
+}

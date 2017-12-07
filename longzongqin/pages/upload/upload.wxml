@@ -1,0 +1,19 @@
+<view class="page">
+  <textarea bindblur="getTitle" placeholder="这一刻的想法..." />
+  <view class="type">
+      <button type="primary" class="uploadImg" bindtap="selectImg">上传图片</button>
+    <button type="warn" class="uploadVideo" bindtap="selectVideo">上传视频</button>
+  </view>
+  <view class="photo {{photo}}">
+     <image wx:for="{{imgArr}}" src="{{item}}"></image>
+  </view>
+  <view class="video {{video}}">
+    <video src="{{videoUrl}}" ></video>
+  </view>
+
+<view class="location" bindtap="selectLocation">
+ <image src="/images/location.png"></image>
+ <text>{{address}}</text>
+</view>
+        <button type="primary" class="add" bindtap="uploadFile">确认发布</button>
+</view>

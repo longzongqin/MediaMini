@@ -1,0 +1,58 @@
+
+.page{
+  padding: 10px;
+}
+
+.photo > image{
+  width: 4rem;
+  height: 4rem;
+  margin-right: 5px;
+  background: gainsboro;
+}
+
+video{
+  width:100%;
+}
+textarea{
+  width: 100%;
+  max-height: 100px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.type{
+  width: 100%;
+  color: white;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.type > button{
+  width: 49%;
+  text-align: center;
+}
+.uploadImg{
+  float: left;
+}
+.uploadVideo{
+  float: right;
+}
+.active{
+  background: lightseagreen;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.add{margin-top: 20px;}
+
+.location{
+  margin-top: 20px;
+}
+.location image{
+  width:18px;
+  height:18px;
+}
+.location text{
+  font-size: 16px;
+}

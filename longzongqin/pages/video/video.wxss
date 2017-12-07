@@ -1,0 +1,65 @@
+
+.page{
+  background: black;
+}
+.listItem{
+  background: #2b2938;
+  color: white;
+  margin-bottom: 5px;
+}
+.header{
+  height: 3rem;
+}
+.headImg{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  float: left;
+}
+.nick{
+  font-size: 16px;
+  line-height: 3rem;
+}
+.time{
+  font-size: 12px;
+  color: grey;
+  margin-right: 0.5rem;
+  position:absolute;
+  right:0;
+  margin-top:0.5rem;
+}
+.time1{
+  font-size: 12px;
+  color: grey;
+  margin-right: 0.5rem;
+  position:absolute;
+  right:0;
+  line-height: 3rem;
+}
+.address{
+   font-size: 12px;
+  color: grey;
+  margin-right: 0.5rem;
+  position:absolute;
+  right:0;
+  margin-top:1.5rem;
+}
+.content{
+  background: black; 
+  padding-top: 5px;
+}
+.content image{
+  margin: 0px 2px;
+}
+video{
+  width: 100%;
+}
+
+.footer{
+  padding: 0.5rem;
+}
+.title{
+   font-size: 16px;
+}
+
